@@ -2,8 +2,8 @@ This project implements a two-player Connect Four game using a client–server n
 Two computers communicate over a wireless network to establish a basic distributed system, allowing players to participate in a synchronized, turn-based game.
 The system demonstrates fundamental concepts in computer networking, concurrency, object-oriented design, and event-driven GUI programming.
 
-Server: Maintains the game state, validates moves, enforces turn order, broadcasts updates to clients
-Client: Sends player input, to server, receives games states, and updates board
+Server: Maintains the game state, validates moves, enforces turn order, broadcasts updates to clients.
+Client: Sends player input, to server, receives games states, and updates board.
 
 Connection is created through Java sockets, consists ServerSocket and Sockets for the clients.
 Uses multithreadin to maintain responsiveness, and handle networking operations.
